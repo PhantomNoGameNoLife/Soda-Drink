@@ -155,6 +155,8 @@ img {
     -moz-transition: background 0.5s ease-in-out;
     -ms-transition: background 0.5s ease-in-out;
     -o-transition: background 0.5s ease-in-out;
+    filter: contrast(1.75) saturate(1.3);
+    -webkit-filter: contrast(1.75) saturate(1.3);
 }
 
 .leaves {
@@ -165,6 +167,8 @@ img {
     background-size: 100%;
     top: calc(50% - var(--height-mockup) / 1.7);
     left: calc(50% + var(--width-mockup) / 5);
+    filter: contrast(1.75) saturate(1.3);
+    -webkit-filter: contrast(1.75) saturate(1.3);
 }
 
 .shadow {
