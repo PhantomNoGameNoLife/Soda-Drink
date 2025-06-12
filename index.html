@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Soda Drink</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO meta tags -->
+    <meta name="description" content="">
+    <meta name="author" content="Sherif">
+    <meta name="keywords" content="">
+    <!-- favicon ico -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <!-- google fonts -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900%7CPoppins:200,300,400,500,600,700,800">
+    <!-- fontawesome style -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- bootstrap style -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- custom style -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- animation style -->
+    <link rel="stylesheet" href="./css/animation.css">
+    <!-- media style -->
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+    <!-- ******************************** start nav  ******************************** -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-2 fw-bolder" href="#">Soda Drink</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ******************************** end nav  ******************************** -->
+    <!-- ******************************** start slider  ******************************** -->
+    <main>
+        <section class="slider">
+            <div class="list">
+                <div class="item active">
+                    <div class="content postion-center text-center straw">
+                        strawberry
+                    </div>
+                    <img src="img/fruit_strawberry.png" alt="strawberry" class="fruit postion-center">
+                </div>
+                <div class="item">
+                    <div class="content postion-center text-center avoc">
+                        avocado
+                    </div>
+                    <img src="img/fruit_avocado.png" alt="avocado" class="fruit postion-center">
+                </div>
+                <div class="item hidden">
+                    <div class="content postion-center text-center oran">
+                        orange
+                    </div>
+                    <img src="img/fruit_orange.png" alt="orange" class="fruit postion-center">
+                </div>
+            </div>
+            <div class="leaves"></div>
+            <div class="mockup postion-center"></div>
+            <div class="shadow"></div>
+            <div class="arrow">
+                <button id="prev" onclick="prevItem()"><i class="fa-solid fa-angle-left fa-xl"></i></button>
+                <button id="next" onclick="nextItem()"><i class="fa-solid fa-angle-right fa-xl"></i></button>
+            </div>
+        </section>
+    </main>
+    <!-- ******************************** end silder  ******************************** -->
+    <!-- bootstrap script -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- main script -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

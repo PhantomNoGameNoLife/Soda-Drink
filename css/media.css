@@ -1,0 +1,13 @@
+/* Bootstrap min-width media queries */
+
+@media (min-width: 768px) {
+    .slider .item .content {
+        font-size: 7rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .slider .item .content {
+        font-size: 12rem;
+    }
+}

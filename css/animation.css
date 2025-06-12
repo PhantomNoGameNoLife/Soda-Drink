@@ -1,0 +1,20 @@
+@keyframes toActive {
+    from {
+        top: 100%;
+        opacity: 0;
+    }
+}
+
+@keyframes toOut {
+    from {
+        top: 50%;
+        opacity: 1;
+    }
+}
+
+@keyframes toActivePrev {
+    from {
+        top: 0;
+        opacity: 0;
+    }
+}
