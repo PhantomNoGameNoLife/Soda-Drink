@@ -1,5 +1,23 @@
 /* Bootstrap min-width media queries */
 
+@media (max-width: 575px) {
+    .slider .item .fruit {
+        max-width: 360px;
+    }
+
+    .mockup {
+        width: calc(var(--width-mockup) * 0.9);
+        height: calc(var(--height-mockup) * 0.9);
+    }
+
+    .leaves {
+        width: 120px;
+        height: 120px;
+        top: calc(50% - (var(--height-mockup) * 0.9) / 1.7);
+        left: calc(50% + (var(--width-mockup) * 0.9) / 5);
+    }
+}
+
 @media (min-width: 768px) {
     .slider .item .content {
         font-size: 7rem;
